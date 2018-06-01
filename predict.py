@@ -169,7 +169,7 @@ def test(model, y_val):
 
 INCREASE_EPOCHS = 2000
 
-learning_rates = [0.00006]
+learning_rates = [0.000005]
 epsilons = [0.001]
 for i in range(len(learning_rates)):
     for j in range(len(epsilons)):
